@@ -105,7 +105,7 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Ruby",
-  "Rails",
+  "Ruby on Rails",
   "Strapi",
   "Svelte",
   "Framer Motion",
