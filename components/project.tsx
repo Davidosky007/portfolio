@@ -48,7 +48,7 @@ export default function Project({
             ))}
             <a
               className="text-2xl font-semibold hover:scale-[1.05] sm:text-lg sm:py-1"
-              href={link}
+              href={link} target="_blank"
             >
               View project here!
             </a>

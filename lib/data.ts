@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import tsgPreviewImg from "@/public/tsg-preview.png"
 
 export const links = [
   {
@@ -62,12 +63,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "TSG MVP",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB"],
-    imageUrl: corpcommentImg,
-    link: ""
+      "I worked as a full-stack developer on this startup project. Users can give register for different courses, manage course and other informations from their dashboard and make payment.",
+    tags: ["React", "Strapi CMS"],
+    imageUrl: tsgPreviewImg,
+    link: "https://tsg-frontend.vercel.app/"
   },
   {
     title: "rmtDev",
