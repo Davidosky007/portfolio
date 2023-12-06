@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import rmtdevImg from "@/public/afro-shop.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import tsgPreviewImg from "@/public/tsg-preview.png"
 
@@ -66,17 +66,17 @@ export const projectsData = [
     title: "TSG MVP",
     description:
       "I worked as a full-stack developer on this startup project. Users can give register for different courses, manage course and other informations from their dashboard and make payment.",
-    tags: ["React", "Strapi CMS"],
+    tags: ["React", "Node Js"],
     imageUrl: tsgPreviewImg,
     link: "https://tsg-frontend.vercel.app/"
   },
   {
-    title: "rmtDev",
+    title: "Afro Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "Next.js", "Tailwind", "Redux"],
+      "Ecommerce Application. I worked as a full-stack developer on this project. It has features like filtering, Authentication, Authorization, sorting and Admin dashboard.",
+    tags: ["React", "Node.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
-    link: ""
+    link: "https://afroshop-frontend.vercel.app/"
   },
   {
     title: "Word Analytics",
